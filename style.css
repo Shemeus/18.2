@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+ }
+ 
+ header {
+   background-image: url('afbeelding/grootebroek.jpg');
+   background-size: cover;
+   text-align: center;
+    background-color: #333;
+    color: #0e0d0d;
+    text-align: center;
+    padding: 50px;
+    width: 1500px; height: 500px;
+ }
+ 
+ h1 {
+    margin: 0;
+ }
+ 
+ main {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+ }
+ 
+ .left-section {
+    flex: 9;
+    padding: 15px;
+    margin: auto;
+    
+ }
+ 
+ .right-section {
+    flex: 2;
+    padding-top: 15px;
+    background-color: #333;
+    
+ }
+ 
+ .fact, .tourist-attraction {
+    background-color: #fcf8f8;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 7px solid #ffffff;
+    border-radius: 15px;
+    
+ }
+ 
+ .fact h2, .tourist-attraction h2 {
+    color: #000000;
+ }
+ 
+ .fact p, .tourist-attraction p {
+    color: #000000;
+ }
+ 
+ .tourist-attraction img {
+    max-width: 100%;
+    height: auto;
+ }
+ 
+ footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+ }
+ @media (max-width: 768px) {}
+
+    header {
+      padding: 30px 0;
+    }
+    .left-section {
+      width: 100%;
+      grid-template-columns: 1fr;
+    }
+    .fact {
+      width: 100%;
+    }
+    .right-section {
+      grid-template-columns: 1fr;
+    }
